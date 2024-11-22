@@ -8,5 +8,4 @@ This Tailwind CSS preset currently sets **Manrope** as the default `font-sans` f
 npm install nutifafa-tw-preset
 
 
-```bash
 yarn add nutifafa-tw-preset
