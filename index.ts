@@ -90,12 +90,32 @@ const preset: Config = {
                     '0%': { transform: 'rotate(0deg)' },
                     '100%': { transform: 'rotate(360deg)' },
                 },
+                wave: {
+                    '0%': { transform: 'rotate(0.0deg)' },
+                    '10%': { transform: 'rotate(14deg)' },
+                    '20%': { transform: 'rotate(-8deg)' },
+                    '30%': { transform: 'rotate(14deg)' },
+                    '40%': { transform: 'rotate(-4deg)' },
+                    '50%': { transform: 'rotate(10.0deg)' },
+                    '60%': { transform: 'rotate(0.0deg)' },
+                    '100%': { transform: 'rotate(0.0deg)' },
+                },
+                rotate: {
+                    "0%, 100%": {
+                        transform: "rotate(0deg) scale(1.2)",
+                    },
+                    "50%": {
+                        transform: "scale(0.9) rotate(180deg)",
+                    }
+                },
             },
             animation: {
                 fadeIn: 'fadeIn 0.5s ease-in-out',
                 slideIn: 'slideIn 0.5s ease-out',
                 bounce: 'bounce 1s infinite',
                 spin: 'spin 1s linear infinite',
+                'waving-hand': 'wave 2s linear infinite',
+                rotate: "rotate 4s cubic-bezier(0.2, 0.8, 0.2, 1) infinite",
             },
         },
     },
