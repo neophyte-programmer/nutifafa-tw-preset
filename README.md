@@ -1,11 +1,14 @@
-# Nutifafa TW Preset: Manrope Font
+# Nutifafa TW Preset
 
-This Tailwind CSS preset currently sets **Manrope** as the default `font-sans` font family.
+This is a simple tailwind preset for demonstration purposes
 
 ## Installation
 
 ```bash
-npm install nutifafa-tw-preset
-
-
 yarn add nutifafa-tw-preset
+
+
+```
+
+### Setup
+This preset comes with the font Manrope so be sure to add the import in your globals.css file or index.css file

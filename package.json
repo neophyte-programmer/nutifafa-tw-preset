@@ -1,6 +1,6 @@
 {
 	"name": "nutifafa-tw-preset",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "This is a simple tailwind preset for demonstration purposes",
 	"main": "index.ts",
 	"scripts": {
@@ -21,6 +21,10 @@
 	},
 	"homepage": "https://github.com/neophyte-programmer/nutifafa-tw-preset#readme",
 	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/container-queries": "^0.1.1",
+		"@tailwindcss/forms": "^0.5.9",
+		"@tailwindcss/typography": "^0.5.15",
 		"@types/node": "^22.9.1",
 		"tailwindcss": "^3.4.15",
 		"typescript": "^5.6.3"
