@@ -1,6 +1,6 @@
 {
 	"name": "nutifafa-tw-preset",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This is a simple tailwind preset for demonstration purposes",
 	"main": "index.ts",
 	"scripts": {
